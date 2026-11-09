@@ -6,6 +6,14 @@ The format is based on [Keep a Changelog 1.1.0](https://keepachangelog.com/en/1.
 
 ## [Unreleased]
 
+### Added
+
+- `greet()` accepts a new `punctuation` argument (default `"!"`); before, the ending was always `!`.
+
+### Fixed
+
+- `greet()` and the command line greet `world` for a blank name; before, `''` printed `Hello, !`.
+
 ## [0.1.0] - 2026-11-09
 
 ### Added
